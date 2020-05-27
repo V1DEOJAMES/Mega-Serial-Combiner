@@ -1,6 +1,6 @@
 void setup() {
   // put your setup code here, to run once:
-  Serial.begin(115200);
+  Serial.begin(460800);
   Serial1.begin(115200);
   Serial2.begin(115200);
   Serial3.begin(115200);
