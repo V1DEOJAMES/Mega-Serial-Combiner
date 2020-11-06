@@ -21,7 +21,7 @@ void setup() {
     Serial.println(" 2 = 9600");
   }
     else {
-    Serial1.begin(115200);
+    Serial2.begin(115200);
     Serial.println(" 2 = 115200");
   }
   if (digitalRead(SERIAL3_PIN)) {
